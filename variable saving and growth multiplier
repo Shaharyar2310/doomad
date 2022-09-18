@@ -1,0 +1,11 @@
+savings = input("enter savings your here ")
+print("your savings =", savings)
+
+growth_multiplier = 1.1
+result = 7
+print("growth multiplies after 7 years = ", growth_multiplier*result)
+
+growth_multiplier = input("enter growth multiplier here ")
+print("growth multiplier is", growth_multiplier)
+result = input("money you saved after seven years ")
+print("money you saved after seven years =", result)

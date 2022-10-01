@@ -1,0 +1,39 @@
+#list start(integers)
+numbers = [0,1,2,3,4,5,6,7,8,9]
+print(numbers)
+
+#ading (integers)(run two times)
+numbers.insert(3,5)
+print(numbers)
+
+#removing (integers)
+#two ways
+#No. 1
+numbers.remove(5)
+print(numbers)
+#No. 2
+numbers.pop(3)
+print(numbers)
+
+#checking length
+print("length of list is ", len(numbers))
+
+#list start(strings)
+names = ["Ali","Ahmed","Saif","Qasim"]
+print(names)
+
+#adding (strings)
+names.insert(2,"alien")
+print(names)
+
+#removing (strings)
+#two ways
+#No. 1
+names.remove("alien")
+print(names)
+#No. 2
+names.pop(2)
+print(names)
+
+#checking length
+print("length of list is ",len(names))
